@@ -20,7 +20,7 @@ const ImageCarousel = ({ images, name }) => {
     };
 
     return (
-        <div id='plantulas' className="relative group">
+        <div className="relative group">
             <img
                 src={images[currentIndex]}
                 alt={`${name} - ${currentIndex + 1}`} // Eliminamos la palabra "Image" para evitar redundancia
@@ -347,7 +347,7 @@ const ProductList = () => {
     ];
 
     return (
-        <section className="py-12 sm:py-16 bg-gray-50">
+        <section id='plantulas'  className="py-12 sm:py-16 bg-gray-50">
             <div className="container mx-auto px-4">
                 <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-800 mb-12">
                     Nuestros Productos
