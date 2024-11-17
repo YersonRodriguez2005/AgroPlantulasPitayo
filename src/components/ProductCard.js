@@ -20,7 +20,7 @@ const ImageCarousel = ({ images, name }) => {
     };
 
     return (
-        <div className="relative group">
+        <div id='plantulas' className="relative group">
             <img
                 src={images[currentIndex]}
                 alt={`${name} - ${currentIndex + 1}`} // Eliminamos la palabra "Image" para evitar redundancia
